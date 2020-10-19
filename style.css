@@ -283,3 +283,13 @@ opacity: 1;
 }
 
 /* end contact us */
+@media (max-width: 900px) {
+    #contactus {
+        padding: 0;
+        justify-content: center;
+        text-align: center;      
+    } 
+    #contactus.container {
+        width: 100%;
+    }
+}
