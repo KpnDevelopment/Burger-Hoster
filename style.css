@@ -96,6 +96,8 @@ body
 }
 .navbar-brand {
     height: 2rem;
+    font-family: 'Merienda One', cursive;
+    justify-content: center;
 }
 .navbar-nav li {
     padding-right: .7rem;
