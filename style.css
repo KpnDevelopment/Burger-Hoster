@@ -64,7 +64,7 @@ body
     height: 60px;
     position: fixed;
     transition: all .25s ease-in-out;
-    background:rgb(202, 28, 57);
+    background: #28a745;
     border-radius: 30px;
     padding: 15px;
     padding-top: 16px;
@@ -153,10 +153,6 @@ body
     justify-content: center;
 }
 /* slider */
-/* about us */
-
-
-/* about us */
 
 
 /* menu start */
@@ -170,6 +166,33 @@ body
 } 
 
 /* menu end */
+
+/* services */
+#services .container .row .col-md-5 .card:hover {
+    transform: translateY(-10px);
+    transform: translatex(-10px);
+    transition: 2s;
+}
+#services .container .row .col-md-5  .card img {
+    background: #f8f9fa;
+}
+#services .container .row .col-md-5  .freeship img:hover {
+    background: #20c997;
+}
+ 
+#services .container .row .col-md-5  .return img:hover {
+    background: #fd7e14;
+}
+
+#services .container .row .col-md-5  .order img:hover {
+    background: #dc3545;
+}
+
+#services .container .row .col-md-5  .support img:hover {
+    background: #ffc107;
+}
+
+/* sevices end */
 
 /* contact us */
 #contactus {
