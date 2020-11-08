@@ -1,24 +1,25 @@
-body
-{
-    overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif; font-weight: 700;
-    background: rgb(71, 63, 63); 
-    text-align: center;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: center;
+    
+  }
+body
+{
+    
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    background: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
 
 }
-.container {
-    text-align: center;
-    justify-content: center;
-    
+section {
+    padding: 5px;
 }
-.row{
-    text-align: center;
-    justify-content: center;
-    overflow: hidden;
-}
+
+
 
 
 .offset:before {
@@ -54,7 +55,7 @@ body
       justify-content: center;
       margin: 0 3em 3em 0;
       border-radius: 50%;
-      padding: .25em;
+      padding: .25rem;
       width: 50px;
       height: 50px;
 
@@ -97,13 +98,8 @@ body
 .navbar-brand {
     height: 2rem;
     font-family: 'Merienda One', cursive;
-    justify-content: center;
 }
-.navbar-nav li {
-    padding-right: .7rem;
-    
 
-}
 .navbar-nav li a {
     color: black;
     font-weight: 600;
@@ -116,6 +112,22 @@ body
     color:white;
 }
 /* nav end */
+/* home */
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;
+}
+.slide {
+    flex-grow: 1;
+    
+}
+.hometext {
+    flex-grow: 1;
+
+}
+/*  */
 /* slider */
 .slide-h3 {
     font-size: 50px;
@@ -196,10 +208,13 @@ body
 
 /* contact us */
 #contactus {
-  min-width: fit-content;
-  min-height: 50px;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ color: black;
+ background: white;
 }
-.social img:hover {
+#contactus.social img:hover {
     opacity: 1;
     background: black;
     background-color: black;
@@ -224,16 +239,7 @@ opacity: 1;
 }
 
 /* end contact us */
-@media (max-width: 900px) {
-    #contactus {
-        padding: 0;
-        justify-content: center;
-        text-align: center;      
-    } 
-    #contactus.container {
-        width: 100%;
-    }
-}
+
 .loader {
     position: fixed;
     left: 0px;

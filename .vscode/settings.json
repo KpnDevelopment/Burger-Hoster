@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "material-icon-theme.activeIconPack": "react",
+    "materialTheme.accent": "Sky"
 }
