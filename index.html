@@ -23,13 +23,13 @@
 
 
     <!-- navibar start -->
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md fixed-top">
       <a href="index.html" class="navbar-brand"><img src="images/burger.png" alt="log" style="padding: 5px; height: 40px; justify-content: center;">BurgerBake</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResposive"
         aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResposive">
+      <div class="collapse navbar-collapse bg-dark nmv-dark" id="navbarResposive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a href="#home" class="nav-link">Home</a>
@@ -66,8 +66,9 @@
     <!-- Start Image Slider -->
    
       <section id="home" class="row parent">
+        <video autoplay loop playonline muted src="video/Pexels Videos 1535674.mp4"></video>
         <div class="slide col-sm-12 col-md-4" style=" padding-top: 10rem;">
-          <div class="card">
+          <div class="card homecard">
             <div id="carouselExampleIndicators" class=" carousel slide" data-ride="carousel ">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -113,10 +114,10 @@
         </div>
         
         <div class=" hometext col-md-7 col-sm-12 " style="padding-top: 15rem; margin-left: 10px;" >
-          
-            <h5 style="font-weight: 200;">Only Fresh Burgers</h5>
-            <h2 style="font-weight: 800; letter-spacing: 5px;" class="animate__animated animate__pulse">Flame Grilled Burger</h2>
-            <p style="font-size: 15px;"> Finding an amazing burger, however, isn’t that simple. Here are 25 worth sinking your teeth into at least once in your life. Consider this your Burger Bucketlist.</p>
+
+            <h5 style="font-weight: 200; color: coral;">Only Fresh Burgers</h5>
+            <h2 style="font-size: 50px; font-weight: 800; letter-spacing: 5px; color: black;;" class="animate__animated animate__pulse">Flame <span class="grill">Grilled</span>Burger</h2>
+            <p style="font-size: 15px; color: black;"> Finding an amazing burger, however, isn’t that simple. Here are 25 worth sinking your teeth into at least once in your life. Consider this your Burger Bucketlist.</p>
             <a type="button" href="#welcome" class="btn btn-success">Read More</a>
             <div class="btn btn-success animate__animated animate__flash animate__slower animate__repeat-1">Order Now</div>
         </div>
@@ -330,40 +331,85 @@
 
 
     <!-- contact us start -->
-    <section id="contactus" class="offset" >
-      <div class="parent" data-aos="fade-up" >
-        <div class=" row">
+    <footer class="page-footer font-small  pt-4">
 
-          <div class=" col-md-6 col-sm-14 slide">
-            <a href="#"><img src="images/burger.png" alt="logo"></a>
-            <p style="text-align: justify;">Contact us for uncompremise Quality tasty foods.We provide best Bakes and specialize in burggers any type of Burggers are available here</p>
-            <a class="social" href="#" target="_blank"><img src="images/email_logo.png" alt="email"
-                style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8;  color: black; "></a>
-            <a class="social" href="#" target="_blank"><img src="images/facebook_logo.png" alt="fb"
-                style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8; color: black;"></a>
-            <a class="social" href="#" target="_blank"><img src="images/instagram_logo.png" alt="insta"
-                style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8;  color: black;"></a>
-          </div>
+      <!-- Footer Text -->
+      <div class="container-fluid text-center text-md-left fcontent">
 
-          <div class="col-md-6  hometext ">
-            <h6 style="text-align: justify;">Contact Us</h6>
-            <p style="text-align: justify;">Address : Navar Complex, Hospital Jn, North Mannarkkad, Palakkad ,Kerala</p>
-            <p style="text-align: justify;">Phone : +04924 225566</p>
-            <p style="text-align: justify;">Email : burgerbakemkd@gmail.ocm</p>
+          <!-- Grid row -->
+          <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-6 mt-md-0 mt-3">
+
+                  <!-- Content -->
+                  <h2 class="text-uppercase font-weight-bold ">Contact US</h2>
+                 <a class="footerlogo" href=""> <img class="bootmlogo" src="images/burger.png" alt="">BurgerBake</a>
+                 
+                  <p style="word-break: break-all;">Contact us for uncompremise Quality tasty foods. <br> We provide best Bakes and specialize in burggers any type of Burggers are available here</p>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none pb-3">
+
+              <!-- Grid column -->
+              <div class="col-md-6 mb-md-0 mb-3">
+
+                  <!-- Content -->
+                  <h5 class=" footer2 text-uppercase font-weight-bold">Contact US</h5>
+                  <p style="word-break: break-all;">
+                    Address : Navar Complex, Hospital Jn,<br> North Mannarkkad,<br> Palakkad ,Kerala</p>
+                  <!-- Facebook -->
+                  <a id="fb" class="fb-ic social" target="_blank" href="https://www.facebook.com/iptgpc/">
+                      <img src="images/facebook_logo.png" alt="">
+                  </a>
+                 <!-- instagram -->
+                  <a id="insta" class="ins-ic social" target="_blank" href="http://www.instagram.com/ipt_gptc">
+                     <img src="images/instagram_logo.png" alt="">
+                  </a>
+                  <!-- youtube -->
+                  <!-- <a id="youtube" class="ins-ic social" target="_blank" href="http://www.youtube.com/c/iptgptcshoranurvideos">
+                      <i class="icofont-youtube-play"></i>
+                  </a> -->
+                  <!-- email -->
+                  <a id="mail" class="ins-ic social" target="_blank" href="mailto:polyshoranur@gmail.com">
+                      <img src="images/email_logo.png" alt="">
+                  </a>
+                  <!--Pinterest-->
+                  <!-- <a class="pin-ic">f
+          <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+        </a> -->
+
+              </div>
+              <!-- Grid column -->
+
           </div>
-        </div>
+          <!-- Grid row -->
+
       </div>
-    </section>
+      <!-- Footer Text -->
 
-       <!-- Loader start -->
-       <!-- <div class="loader"></div> -->
-       <!-- loader end -->
+      <!-- Copyright -->
+      <div class="footer-copyright copy text-center py-3">© 2020 Copyright:
+          <a href="#"> ipt&gptcshoranur</a>
+      </div>
+      <!-- Copyright -->
+
+  
+  </footer>
+     
     <!-- topbtn -->
 
     <a class="top-link hide" href="" id="js-top">
       <img src="images/up_arrow.png" alt="up_arrow">
      
     </a>
+
+
+      <!-- Loader start -->
+      <div class="loader"></div>
+      <!-- loader end -->
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -417,48 +463,13 @@
 
       </script>
 
-      <script>
-        // Set a variable for our button element.
-const scrollToTopButton = document.getElementById('js-top');
-
-
-const scrollFunc = () => {
-  
-  let y = window.scrollY;
-  
  
-  if (y > 0) {
-    scrollToTopButton.className = "top-link show";
-  } else {
-    scrollToTopButton.className = "top-link hide";
-  }
-};
-
-window.addEventListener("scroll", scrollFunc);
-
-const scrollToTop = () => {
- 
-  const c = document.documentElement.scrollTop || document.body.scrollTop;
-  
- 
-  if (c > 0) {
-    window.requestAnimationFrame(scrollToTop);
-
-    window.scrollTo(0, c - c / 10);
-  }
-};
-
-scrollToTopButton.onclick = function(e) {
-  e.preventDefault();
-  scrollToTop();
-}
-      </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript">
-  $(window).load(function() {
-      $(".loader").fadeOut("slow");
-  });
-</script>
+    <script type="text/javascript">
+        jQuery(window).load(function(){
+        jQuery(".loader").fadeOut(500);
+});
+    </script>>
 
 
 </body>
